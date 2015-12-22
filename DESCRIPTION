@@ -1,0 +1,19 @@
+Package: lmPG
+Type: Package
+Title: lmPG: S4 Linear Model
+Version: 0.1
+Date: 2015-12-17
+Author: Phil Goddard
+Maintainer: <philip.mgoddard@gmail.com>
+Description: An S4 stripped down version of lm. Made purely out of interest.
+    Should not be considered a replacement to lm.
+License: GPL
+LazyData: TRUE
+Imports:
+    MASS,
+    methods,
+    stats
+Collate:
+    'class-definition.R'
+    'accessors.R'
+    'generics.R'
